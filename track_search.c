@@ -25,8 +25,7 @@ int main()
 {
     char search_for[80];
     printf("Search for: ");
-    fgets(search_for, 80, stdin);
-    search_for[strcspn(search_for, "\n")] = '\0'; // Removes the newline from search_for
+    scanf("%79[^\n]", search_for);
     find_track(search_for);
     return 0;
 }
