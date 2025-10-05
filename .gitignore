@@ -1,1 +1,6 @@
 /build
+/map_files
+*.csv
+*.html
+*.txt
+*.json
